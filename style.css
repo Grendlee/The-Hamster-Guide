@@ -1,0 +1,543 @@
+img.highlighted {
+    border: 5px solid blue;
+}
+
+img{
+    border: 5px solid #e5e2f8;
+}
+
+header{
+    background-color: #f1f0f0;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center; 
+    display: grid; 
+    grid-template-columns: max-content; 
+    justify-content: center;
+}
+
+h1{
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #c4c2c2;
+    border-radius: 10px;
+}
+
+h2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    background-color: #f1f0f0;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #e5e2f8; 
+    color: #335; 
+    line-height: 2;
+    /* transition: background-color 1s ease; */
+    transition: background-color 2s ease;
+}
+
+#wrapper{
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    padding: 2rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #c4c2c2;
+    border-radius: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#features ul li a {
+    display: block;
+    margin: 20px auto;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border: 1px solid #aaa;
+}
+#features a:hover{
+    
+    background: rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    
+}
+
+#features ul{
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0.2rem 1rem; 
+    border-radius: 10px;
+    border: 1px solid #aaa; 
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    overflow: hidden;
+    white-space: nowrap;
+    display: block; 
+    text-align: center; 
+}
+
+li{
+    word-wrap: break-word;
+    white-space: normal; 
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+
+nav li{
+    margin-bottom: 10px;
+}
+
+nav li a:hover {
+    background: rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+
+
+
+form{
+    padding: 2rem;
+}
+span{
+    float: right;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border: 1px solid #aaa;
+}
+
+#sprite1 {
+    width: 60px;
+    height: 60px;
+    background-image: url('photos/hamster.png');
+    position:fixed;
+    animation: moveAround1 30s infinite;
+}
+
+
+
+#sprite4 {
+    width: 60px;
+    height: 80px;
+    background-image: url('photos/hamster5.png');
+    position:fixed;
+    animation: moveAround 20s infinite;
+}
+
+
+
+@keyframes moveAround1 {
+    0% {
+        top: 0%;
+        left: 0%;
+    }
+    10% {
+        top: 5%;
+        left: 10%;
+    }
+    20% {
+        left: 15%;
+    }
+    30% {
+        top: 0%;
+        left: 10%;
+    }
+    40% {
+        top: 0%;
+        left: 5%;
+    }
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+    60% {
+        top: 5%;
+        left: 0%;
+    }
+    70% {
+        top: 10%;
+    }
+    80% {
+        top: 5%;
+        left: 5%;
+    }
+    90% {
+        left: 10%;
+    }
+    100% {
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@keyframes moveAround {
+    0% {
+        top: 88%;
+        left: 92%;
+    }
+    10% {
+        top: 95%;
+        left: 80%;
+    }
+    20% {
+        left: 85%;
+    }
+    30% {
+        top: 90%;
+        left: 90%;
+    }
+    40% {
+        top: 90%;
+        left: 97%;
+    }
+    50% {
+        top: 88%;
+        left: 90%;
+    }
+    60% {
+        top: 86;
+        left: 89%;
+    }
+    70% {
+        top: 83%;
+    }
+    80% {
+        top: 88%;
+        left: 88%;
+    }
+    90% {
+        left: 85%;
+    }
+    100% {
+        top: 90%;
+        left: 86%;
+    }
+}
+
+.guide{
+    background-color: #c2c0c0;
+    margin: 1rem;
+    border-radius: 15px;
+    word-wrap: break-word; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+#pageSpecificContent p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#features p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.guide .Name{
+    text-align: center;
+}
+
+.guide .date{
+    text-align: center;
+}
+
+#pageSpecificContent{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+#pageSpecificContent h2{
+    grid-row: 1;
+}
+
+#pageSpecificContent .gallery{
+    grid-row: 3;
+}
+
+#pageSpecificContent #download-btn{
+    grid-row: 2;
+}
+
+
+#download-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+}
+
+#download-btn:hover {
+    background: rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+
+textarea[name="articleText"] {
+    width: 100%;
+    height: 10rem;
+}
+
+form input[type="text"], form textarea, form select {
+    border-radius: 10px;   
+    border: 1px solid #ccc;   
+    padding: 4px;   
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+
+form button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+}
+
+form button[type="submit"]:hover {
+    background: rgba(243, 243, 243, 0.622);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+
+.gallery {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.validationImage img{
+    width: 100%;
+}
+.validationImage img:hover{
+    transform: scale(1.40);
+}
+
+@media only screen and (min-width: 750px){
+
+    .guide{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (min-width: 1550px){
+
+
+    #pageSpecificContent h2{
+        grid-row: 1;
+    }
+    
+    #pageSpecificContent .gallery{
+        grid-row: 2;
+    }
+    
+    #pageSpecificContent #download-btn{
+        grid-row: 3;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul li {
+        margin-left: 1rem;
+    }
+
+    nav{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        align-items: center;
+    }
+
+    #wrapper{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .guide{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+
+
+/* bad coding style but want to make sure all all colours match the them */
+.darkMode{
+    background-color: rgb(40, 40, 40);
+    color: #e0e0e0;
+    transition: background-color 2s ease;
+    /* color: green; */
+    /* transition: color 1s ease; */
+}
+
+.darkMode #wrapper {
+    background-color: #474747;
+    color: #e0e0e0;
+}
+
+.darkMode h1{
+    background-color: black;
+}
+
+.darkMode h3{
+    background-color: black;
+}
+
+.darkMode h2{
+    background-color: black;
+}
+
+.darkMode footer{
+    background-color: black;
+}
+
+.darkMode a{
+    color: #e0e0e0;
+    background-color: #2a2a2a;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+}
+
+.darkMode a:hover{
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+    background: rgba(214, 214, 214, 0.15);
+}
+
+.darkMode span{
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+.darkMode span:hover{
+    
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+    background: rgba(214, 214, 214, 0.15);
+    
+}
+
+.darkMode #download-btn{
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+.darkMode #download-btn:hover{
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+    background: rgba(214, 214, 214, 0.15);
+}
+
+.darkMode #features ul li a {
+
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+.darkMode #features a:hover{
+    
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+    background: rgba(214, 214, 214, 0.15);
+    
+}
+
+
+.darkMode form button[type="submit"] {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+.darkMode form button[type="submit"]:hover {
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+    background: rgba(214, 214, 214, 0.15);
+}
+
+
+.darkMode .guide{
+    background-color: rgb(39, 39, 39);
+    color: #e0e0e0;
+}
+
+.darkMode body{
+    background-color: rgb(40, 40, 40);
+    color: #e0e0e0;
+    /* transition: color 1s ease; */
+}
+
+
+
+
+
+
